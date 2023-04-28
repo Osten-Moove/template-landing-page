@@ -1,13 +1,13 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 function appHeight() {
-  const doc = document.documentElement;
-  doc.style.setProperty("--vh", `${window.innerHeight * 0.01}px`);
+  const doc = document.documentElement
+  doc.style.setProperty('--vh', `${window.innerHeight * 0.01}px`)
 }
 
-if (typeof window !== "undefined") {
-  window.addEventListener("resize", appHeight);
-  appHeight();
+if (typeof window !== 'undefined') {
+  window.addEventListener('resize', appHeight)
+  appHeight()
 }
 
 export default createGlobalStyle`
@@ -45,4 +45,4 @@ export default createGlobalStyle`
     .MuiSvgIcon-root {
         font-size: 1.5rem !important;
     }
-`;
+`

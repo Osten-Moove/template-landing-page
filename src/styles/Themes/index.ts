@@ -5,7 +5,9 @@ export type ThemeMode = 'light' | 'dark'
 export type ThemeType = 'default'
 
 type IThemes = {
+  // eslint-disable-next-line no-unused-vars
   [types in ThemeType]: {
+    // eslint-disable-next-line no-unused-vars
     [modes in ThemeMode]: DefaultTheme
   }
 }

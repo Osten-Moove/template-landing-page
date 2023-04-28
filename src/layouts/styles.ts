@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100vw;
@@ -6,7 +6,7 @@ export const Container = styled.div`
   padding: 0;
   margin: 0;
   overflow: hidden;
-`;
+`
 
 export const Body = styled.div`
   display: flex;
@@ -14,7 +14,7 @@ export const Body = styled.div`
   flex: 1;
   height: 100vh;
   width: 100vw;
-`;
+`
 
 export const Main = styled.div`
   display: flex;
@@ -22,10 +22,10 @@ export const Main = styled.div`
   flex-direction: row;
   flex: 1;
   max-height: calc(100% - 48px);
-`;
+`
 
 export const Content = styled.div`
   flex: 1;
   overflow-y: auto;
   height: 100%;
-`;
+`

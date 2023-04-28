@@ -4,5 +4,5 @@ export const ChangeLang = () => {
       <button>English</button>
       <button>Português</button>
     </>
-  );
-};
+  )
+}

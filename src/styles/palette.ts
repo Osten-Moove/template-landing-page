@@ -45,9 +45,11 @@ export const grays = {
   N900: '#1D1D1D',
 }
 
-export default {
+const palette = {
   blues,
   turquoises,
   oranges,
   grays,
 }
+
+export default palette

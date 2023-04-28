@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100vw;
@@ -8,7 +8,7 @@ export const Container = styled.div`
   align-items: center;
   background-color: ${(props) => props.theme.palette.background.paper};
   padding: 0 3rem 0 3rem;
-`;
+`
 
 export const Content = styled.div`
   width: 100%;
@@ -16,4 +16,4 @@ export const Content = styled.div`
   align-items: center;
 
   justify-content: space-between;
-`;
+`
