@@ -1,6 +1,6 @@
-import { AppPresentation } from "@/components/AppPresentation/AppPresentation";
-import { Welcome } from "@/components/Welcome/Welcome";
-import Head from "next/head";
+import { AppPresentation } from '@/components/AppPresentation/AppPresentation';
+import { Welcome } from '@/components/Welcome/Welcome';
+import Head from 'next/head';
 
 export default function Home() {
   return (
