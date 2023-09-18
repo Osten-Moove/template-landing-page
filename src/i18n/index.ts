@@ -1,19 +1,13 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
 
-import en from './en.json'
-import pt from './pt.json'
+import { ResourceI18n } from '@/i18n/locates'
 
 i18n.use(initReactI18next).init({
+  ns: Object.keys(ResourceI18n.pt),
   fallbackLng: 'pt',
-  resources: {
-    en,
-    pt,
-  },
+  resources: ResourceI18n,
   lng: 'pt',
-  interpolation: {
-    escapeValue: false,
-  },
 })
 
 export default i18n

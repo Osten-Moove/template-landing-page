@@ -1,4 +1,5 @@
 import { AppPresentation } from '@/components/AppPresentation/AppPresentation';
+import ButtonToStart from '@/components/ButtonToStart/ButtonToStart';
 import { Welcome } from '@/components/Welcome/Welcome';
 import Head from 'next/head';
 
@@ -14,6 +15,7 @@ export default function Home() {
       <main>
         <Welcome />
         <AppPresentation />
+        <ButtonToStart />
       </main>
     </>
   );
