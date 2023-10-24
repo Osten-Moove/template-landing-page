@@ -17,7 +17,7 @@ Clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/Osten-Moove/template-landing-page.git
-cd sign-lp
+cd template-landing-page
 npm install
 # or
 yarn install
